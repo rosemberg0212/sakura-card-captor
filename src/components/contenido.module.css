@@ -1,0 +1,109 @@
+
+/* estilos paginasion */
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    gap: 5px;
+    color: #000000;
+}
+
+.pagination .pageNum {
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+.pagination .pageNum:hover {
+    background-color: #5ab1bb;
+    color: #ffffff;
+}
+
+.pagination .pageNumF {
+    background-color: #f55e61;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.pagination .pageNumF:hover {
+    background-color: transparent;
+    border: 1px solid #f55e61;
+    transition: .4s;
+}
+
+.pagination .active {
+    background-color: #f55e61
+}
+
+
+/* estilos cartas */
+.card {
+    width: 100%;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1rem;
+}
+
+.flex .cartas {
+    width: 130px;
+    height: 250px;
+}
+
+.flex .cartas .sakuraCard {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.cartaPrincipal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cartaPrincipal .conte{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.cartaPrincipal .conte .img{
+    width: 130px;
+    height: 250px;
+}
+
+.cartaPrincipal .conte .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.cartaPrincipal .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.cartaPrincipal .info p{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.cartaPrincipal .info span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #f55e61;
+}
